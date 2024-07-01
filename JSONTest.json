@@ -1,0 +1,22 @@
+[
+    {
+        "date": "2016-01-10",
+        "user_id": 3,
+        "user_type": "natural",
+        "type": "cash_out",
+        "operation": {
+        "amount": 1000,
+        "currency": "EUR"
+        }
+    },
+    {
+        "date": "2016-02-15",
+        "user_id": 1,
+        "user_type": "natural",
+        "type": "cash_out",
+        "operation": {
+        "amount": 300,
+        "currency": "EUR"
+        }
+    }
+]
