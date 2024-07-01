@@ -1,6 +1,7 @@
 const { cashInFee } = require('./cash-in-fees');
 const { cashOutFee } = require('./cash-out-fees');
 const { roundFee } = require('../helpers')
+
 /*  Funtion for processing fees
     metaInfo is information for weekly fees in format
     {
@@ -29,7 +30,7 @@ const processFees = (data) => {
             }
         }
     }, { fees: [], metaInfo: {} })
-    return feesReduce
+    return feesReduce.fees
 }
 
 module.exports = {
